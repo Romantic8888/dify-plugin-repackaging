@@ -79,6 +79,3 @@ jobs:
         with:
           name: ${{ env.ARTIFACT_NAME }}
           path: ${{ env.ARTIFACT_PATH }}
-
-      - name: Node
-        FORCE_JAVASCRIPT_ACTIONS_TO_NODE24:true
